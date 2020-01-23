@@ -8,7 +8,7 @@ namespace Modul2_Saptamana1
 {
     public class Burger : MenuItem
     {
-        public Burger(int quantity, double price, string name, string description) : base(quantity, price, name, description)
+        public Burger(int id, int quantity, double price, string name, string description) : base(id, quantity, price, name, description)
         {
         }
     }
