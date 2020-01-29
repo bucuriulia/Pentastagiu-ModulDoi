@@ -2,8 +2,8 @@
 {
     public class FilePathConstants
     {
-        public const string InputFile = "numbers.txt";
-        public const string CorrectNumbers = "correctNumbers.txt";
-        public const string IncorrectNumbers = "incorrectNumbers.txt";
+        public const string InputFilePath = "numbers.txt";
+        public const string CorrectNumbersFilePath = "correctNumbers.txt";
+        public const string IncorrectNumbersFilePath = "incorrectNumbers.txt";
     }
 }

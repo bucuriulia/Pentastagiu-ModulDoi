@@ -11,7 +11,7 @@ namespace Modul2_Saptamana2.DataStream
         public List<string> IncorrectNumbers { get; set; } = new List<string>();
         public NumberStreamReader()
         {
-            var stream = new FileStream(FilePathConstants.InputFile, FileMode.Open);
+            var stream = new FileStream(FilePathConstants.InputFilePath, FileMode.Open);
             if (stream.Length == 0) return;
             streamReader = new StreamReader(stream);
             ReadAllNumbers();

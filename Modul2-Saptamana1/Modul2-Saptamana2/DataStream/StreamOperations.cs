@@ -13,8 +13,8 @@ namespace Modul2_Saptamana2.DataStream
         {
             NumberStreamReader streamReader = new NumberStreamReader();
 
-            var correctNumberStream = new NumberStreamWriter(new FileStream(FilePathConstants.CorrectNumbers, FileMode.OpenOrCreate));
-            var incorrectNumberStream = new NumberStreamWriter(new FileStream(FilePathConstants.IncorrectNumbers, FileMode.OpenOrCreate));
+            var correctNumberStream = new NumberStreamWriter(new FileStream(FilePathConstants.CorrectNumbersFilePath, FileMode.OpenOrCreate));
+            var incorrectNumberStream = new NumberStreamWriter(new FileStream(FilePathConstants.IncorrectNumbersFilePath, FileMode.OpenOrCreate));
 
             correctNumberStream.WriteNumber(streamReader.CorrectNumbers);
             incorrectNumberStream.WriteNumber(streamReader.IncorrectNumbers);
